@@ -1,0 +1,135 @@
+.main{
+    width: 100%;
+    height: 100%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    position: relative;
+}
+img{
+    height: 100%;
+    width: 200%;
+}
+.ku{
+    width: 10%;
+    height: 13%;
+    position: absolute;
+    display: none;
+    background: -webkit-radial-gradient(circle, rgba(238,118,33,1),rgba(0,0,0,0),rgba(0,0,0,0)); /* Safari 5.1 - 6.0 */
+    background: -o-radial-gradient(circle, rgba(238,118,33,1),rgba(0,0,0,0),rgba(0,0,0,0)); /* Opera 11.6 - 12.0 */
+    background: -moz-radial-gradient(circle, rgba(238,118,33,1),rgba(0,0,0,0),rgba(0,0,0,0)); /* Firefox 3.6 - 15 */
+    background: radial-gradient(circle, rgba(238,118,33,1),rgba(0,0,0,0),rgba(0,0,0,0)); /* 标准的语法（必须放在最后） */
+    -webkit-animation: IMG 1s infinite linear;
+    animation: IMG 1s infinite linear;
+}
+.ku468{
+    top: 38%;
+    left: 51%;
+}
+.ku148{
+    top:38%;
+    left:28%;
+}
+.ku156{
+    top:58%;
+    left:15%
+}
+.ku103{
+    top:58%;
+    left:51%
+}
+.ku231{
+    top:38%;
+    left:69%
+}
+.ku45{
+    top:60%;
+    left:121%
+}
+.ku25{
+    top:60%;
+    left:113%
+}
+.ku23{
+    top:61%;
+    left:128%
+}
+.ku323{
+    top:40%;
+    left:156%
+}
+.ku334{
+    top:61%;
+    left:145%
+}
+.ku375{
+    top:40%;
+    left:181%;
+}
+.ku-nav{
+    display: block;
+    width: 100%;
+    height: 100%;
+    background:  url("../img/ku.png") no-repeat center;
+    background-size: 200%!important;
+    /*-webkit-animation: IMG 1s infinite linear;
+    animation: IMG 1s infinite linear;*/
+}
+.nav{
+    position: fixed;
+    left: 0;
+    right:0;
+    margin: 0 auto;
+    bottom: 8%;
+    width: 60%;
+    height: 13%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav a{
+    width: 13%;
+    height: 100%;
+    background-size: 60%!important;
+}
+/*.nav .nav0{
+    background: url("../img/Ta.png") no-repeat center;
+    background-size: 220%!important;
+}*/
+.nav1{
+    background: url("../img/a1.png") no-repeat center;
+}
+.nav2{
+    background: url("../img/a2.png") no-repeat center;
+}
+.nav3{
+    background: url("../img/a3.png") no-repeat center;
+}
+.nav4{
+    background: url("../img/a4.png") no-repeat center;
+}
+.nav5{
+    background: url("../img/a5.png") no-repeat center;
+}
+.nav6{
+    background: url("../img/a6.png") no-repeat center;
+}
+.logo{
+    position: fixed;
+    width: 10%;
+    height: 10%;
+    right: 0px;
+    top:0px;
+    background: url("../img/logo-png.png") no-repeat center;
+    background-size: cover;
+}
+
+@keyframes IMG{
+    /*0%{margin-top:  0}
+    50%{margin-top:  -10px}
+    100%{margin-top:  0px}*/
+    0%{background: radial-gradient(circle, rgba(255,165,0,1),rgba(0,0,0,0),rgba(0,0,0,0));}
+    25%{background: radial-gradient(circle, rgba(255,165,0,0.8),rgba(0,0,0,0),rgba(0,0,0,0));}
+    50%{background: radial-gradient(circle, rgba(255,165,0,0.4),rgba(0,0,0,0),rgba(0,0,0,0));}
+    75%{background: radial-gradient(circle, rgba(255,165,0,0.8),rgba(0,0,0,0),rgba(0,0,0,0));}
+    100%{background: radial-gradient(circle, rgba(255,165,0,1),rgba(0,0,0,0),rgba(0,0,0,0));}
+}

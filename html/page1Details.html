@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>聂园博</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../3rd/animate/animate.css">
+    <link rel="stylesheet" href="../css/page1Details.css">
+    <link rel="stylesheet" href="../3rd/swiper-4.5.0/dist/css/swiper.min.css">
+    <script src="../3rd/jquery/v2.2.4/jquery.min.js"></script>
+    <script src="../3rd/swiper-4.5.0/dist/js/swiper.min.js"></script>
+    <script src="../js/page1Details.js"></script>
+
+<body>
+<div class="main">
+    <div class="swiper-container">
+        <div class="swiper-wrapper"></div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+    </div>
+    <div class="back"></div>
+    <div class="container">
+        <div class="ImgShow animated rotateIn"></div>
+    </div>
+</div>
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        effect: 'cube',
+        grabCursor: true,
+        cubeEffect: {
+            shadow: true,
+            slideShadows: true,
+            shadowOffset: 20,
+            shadowScale: 0.94,
+        },
+        pagination: {
+            el: '.swiper-pagination',
+        },
+        observer:true,//修改swiper自己或子元素时，自动初始化swiper
+        observeParents:true
+    });
+</script>
+</body>
+</html>

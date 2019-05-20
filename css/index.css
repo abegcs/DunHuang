@@ -1,0 +1,117 @@
+#container{
+    position: fixed;
+    top:0;
+    left: 0;
+    bottom: 0;
+    right:0;
+    touch-action: none;
+    z-index: 9999;
+}
+.buddhism{
+    position: fixed;
+    width: 15%;
+    height: 30%;
+    background:url("../img/Buddhism.svg") no-repeat center;
+    background-size: cover;
+    z-index: 99991;
+    top:0;
+    left: 0;
+    bottom: 0;
+    right:0;
+    margin: auto;
+    animation-duration: 2s;
+    -webkit-animation-delay:2s;
+    animation-delay: 2s;
+}
+.main{
+    width: 100%;
+    height: 100%;
+    background: url("../img/bg.svg") no-repeat center;
+    background-size: cover;
+    position: absolute;
+    overflow: hidden;
+}
+.flower1{
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    left: 0;
+    right: 0;
+    top:0;
+    bottom: 0;
+    margin: auto;
+    background:url("../img/flower1.png") no-repeat center;
+    background-size: cover;
+    display: none;
+    -webkit-animation: rotating1 3s infinite linear;
+    animation: rotating1 3s infinite linear;
+}
+.flower2{
+    position: absolute;
+    width: 83%;
+    height: 83%;
+    left: 0;
+    right: 0;
+    top:0;
+    bottom: 0;
+    margin: auto;
+    background:url("../img/flower2.png") no-repeat center;
+    background-size: cover;
+    display: none;
+    -webkit-animation: rotating 3s infinite linear;
+    animation: rotating 3s infinite linear;
+}
+.container{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top:0;
+    bottom: 0;
+}
+.bird{
+    position: absolute;
+    width: 20%;
+    height: 55%;
+    left: 0;
+    right: 0;
+    top:0;
+    bottom: 0;
+    margin: auto;
+    background: url("../img/bird.png") no-repeat center;
+    background-size: 500%;
+    display: none;
+}
+.logo {
+    position: absolute;
+    width: 6%;
+    height: 15%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background:url("../img/logo.png") no-repeat center;
+    background-size: 900%;
+    display: none;
+}
+.goIn{
+    position: absolute;
+    height: 10%;
+    width: 23%;
+    left: 0;
+    right: 0;
+    bottom: 10%;
+    margin: 0 auto;
+    background:url("../img/btn.jpeg") no-repeat center;
+    background-size: contain;
+    border-radius: 4px;
+    display: none;
+}
+@keyframes rotating{
+    0%{transform:rotateY(0deg)}
+    to{transform:rotateY(1turn)}
+}
+@keyframes rotating1{
+    0%{transform:rotateY(0deg)}
+    to{transform:rotateY(-1turn)}
+}
